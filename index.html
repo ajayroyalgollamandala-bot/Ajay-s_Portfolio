@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay's Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <h1>Welcome to</h1>
+        <h2>AJAY'S PORTFOLIO</h2>
+
+        <div class="loader">
+            <div class="progress"></div>
+        </div>
+
+        <p id="loading-text">Initializing Portfolio...</p>
+        <h3 id="loading-percent">0%</h3>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero">
+
+        <img src="images/profile.jpg" alt="Ajay" id="profile-image">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>AJAY GOLLAMANDALA</h1>
+
+        <h2>Computer Science Engineering Student</h2>
+
+        <p class="skills">
+            Python | Java | C | HTML | AWS
+        </p>
+
+        <p class="tagline">
+            Building the Future with Code.
+        </p>
+
+        <button id="explore-btn">
+            🚀 Explore Portfolio
+        </button>
+
+    </section>
+
+    <!-- Dashboard -->
+    <section id="dashboard">
+
+        <h2>Portfolio Dashboard</h2>
+
+        <div class="dashboard-grid">
+
+            <div class="card" onclick="window.location.href='about.html'">
+                👤<br>About Me
+            </div>
+
+            <div class="card" onclick="window.location.href='education.html'">
+                🎓<br>Education
+            </div>
+
+            <div class="card" onclick="window.location.href='skills.html'">
+                💻<br>Skills
+            </div>
+
+            <div class="card" onclick="window.location.href='projects.html'">
+                🚀<br>Projects
+            </div>
+
+            <div class="card" onclick="window.location.href='internships.html'">
+                💼<br>Internships
+            </div>
+
+            <div class="card" onclick="window.location.href='certificates.html'">
+                📜<br>Certificates
+            </div>
+
+            <div class="card" onclick="window.location.href='achievements.html'">
+                🏆<br>Achievements
+            </div>
+
+            <div class="card" onclick="window.location.href='hobbies.html'">
+                🎸<br>Hobbies
+            </div>
+
+            <div class="card" onclick="window.location.href='contact.html'">
+                📞<br>Contact
+            </div>
+
+            <div class="card" onclick="window.location.href='resume.html'">
+           📄<br>Resume
+        </div>
+
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
